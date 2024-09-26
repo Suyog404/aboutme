@@ -256,7 +256,7 @@ h3.hello{
 }
 h3.hello span
 {
-    font-family: 'Clicker Script',cursive;
+    font-family: 'Sans-serif';
     font-size: 30px;
     font-weight: 700;
     color: var(--skin-color);
@@ -608,6 +608,30 @@ transition: all 0.3 ease;
     height: 50px;
     padding:0 50px;
 }
+.experience-list {
+    list-style-type: none; /* Remove default bullets */
+    padding-left: 0; /* Remove default padding */
+}
+
+.experience-list li {
+    position: relative; /* Position relative for custom bullets */
+    padding-left: 20px; /* Space for custom bullets */
+    margin-bottom: 10px; /* Space between list items */
+    line-height: 1.5; /* Improved readability */
+}
+
+.experience-list li::before {
+    content: ''; /* Custom bullet */
+    position: absolute;
+    left: 0; /* Align left */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust for vertical centering */
+    width: 8px; /* Bullet size */
+    height: 8px; /* Bullet size */
+    background-color: #007bff; /* Bullet color */
+    border-radius: 50%; /* Make it circular */
+}
+
 
 @media (max-width:1199px)
 {

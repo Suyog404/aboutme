@@ -6,14 +6,14 @@ var typed = new Typed(".typing",{
     loop:true
 })
 var min= new Typed(".minor",{
-    strings:["Minor project: An ecommerce web application for sports and fitness products, built using React, Node.js, Express.js, MongoDB and Paypal Sandbox for payment gateway. It is basically a MERN-Stack project. This web applciation contains some features like CRUDE operation, Recomendation System and Sorting "],
+    strings:["Developed a MERN-stack web application using React, Node.js, Express.js, and MongoDB, with PayPal Sandbox integration for payment processing. Implemented features including CRUD operations, a recommendation system, and sorting. Leveraged data analysis techniques to enhance the recommendation system and improve user experience."],
     typeSpeed:40,
     BackSpeed:50,
     loop:true
 
 })
 var maj = new Typed(".major",{
-    strings:["Major project: Detection of Covid-19 from Chest X-ray imaging datasets from various machine learning Algortihms: Support Vector Machine, Logistic Regression and Random Forest and making a comparitive analysis among the mentioned machine learning algortihms. It is basically a image processing project."],
+    strings:["·	Detection of Covid-19 from Chest X-ray imaging datasets from various machine learning algorithms, including Support Vector Machine, Logistic Regression, and Random Forest. This involves a comparative analysis of these machine learning algorithms based on performance metrics such as: Accuracy, Precision, Recall, f1-score and Support.Tools used were: Python, Scikit-learn, Scikit-image, OpenCV, Pandas, Matplotlib, ReactJS. Machine learnign algorithms that were used: Support Vector Machines (SVM), Random Forests, Logistic Regression"],
     typeSpeed:40,
     BackSpeed:50,
     loop:true

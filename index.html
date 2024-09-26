@@ -4,9 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="vieport" content="width=device-width, initial-scale=1.0">
-    <title>
-      Document
-    </title>
     <!-- ===== CSS FILES ==== -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/skins/color-1.css">
@@ -26,17 +23,15 @@
     
     <!-- ==== Aside start ====-->
     <div class="aside"> 
-    <div class="logo">
-        <a href="#"><span>K</span>nowMe</a>
-    </div>
     <div class="nav-toggler">
         <span></span>
     </div>
     <ul class="nav"> 
         <li> <a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
+        <li> <a href="#portfolio" class="active"><i class="fa fa-briefcase">  Resume</i></a></li>
         <li> <a href="#about" class="active"><i class="fa fa-user"></i>About</a></li>
-        <li> <a href="#portfolio" class="active"><i class="fa fa-briefcase">Portfolio</i></a></li>
-        <li> <a href="#contact" class="active"><i class="fa fa-comments">Contact</i></a></li>
+        <li> <a href="#academicprojects" class="active"><i class="fa-solid fa-folder-open">  Academic Projects</i></a></li>
+        <li> <a href="#contact" class="active"><i class="fa fa-comments">  Contact</i></a></li>
     </ul>
     </div>
 
@@ -51,7 +46,7 @@
             <div class="home-info padd-15">
             <h3 class="hello">A<span class="name"> Tech Enthusiast</span></h3>
             <h3 class="my-profession">I'm a <span class="typing"></span></h3>
-            <p> I just completed my Computer Engineering and I am currently seeking suitable positions to learn and utilize my programming skills. I am looking forward to opportunities that would foster my knowledge in Software development, database technologies and SDLC  </p>
+            <p> Software engineer having more than 2 years of experience in designing, developing and maintaining software solutions, particularly for US Healthcare Analytics applications with strong background in software design, data analytics and cloud technology.</p>
             <a href="#about" class="btn">Checkmy CV</a> 
             <a href="#contact" class="btn hire-me">Hire Me</a>
            </div>
@@ -62,6 +57,54 @@
         </div>
     </selection> 
     <!-- ==== Home section End ====-->
+          <!-- === Portfolio section starts here ===-->
+          <section class="portfolio section" id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title padd-15">
+                        <h2>Resume</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- ===portfolio item start===-->
+                    <div class="portfolio-item padd-15">
+                        <div class="portfolio-item-inner shadow-dark">
+                            <div class="portfolio-img">
+                                <h3>Software Engineer | Infinite Softwares Services Nepal Pvt. Ltd.</h3>
+                                <p>Feb 2024 – Present</p>
+                                <ul class="experience-list">
+                                    <li>Developed and maintained healthcare analytics applications, including Medical Intelligence and Engagement Hub Project, utilizing .NET Web API, Angular, Oracle, and AWS, with D3.js for data visualization.</li>
+                                    <li>Executed SQL queries on data marts to retrieve and manipulate data, applying various logic and transformations to meet client needs.</li>
+                                    <li>Contributed to the Engagement Hub Project for Quality Intelligence, developing MVP features including a geolocation component for the US map with interactive Geo-reporting.</li>
+                                    <li>Designed and built user-friendly frontend components with Angular and conducted unit testing using Jasmine, Karma, and Wallaby.js.</li>
+                                    <li>Developed and managed unit tests for backend services using NUnit.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ===portfolio item ends===-->
+                    <!-- ===portfolio item start===-->
+                    <div class="portfolio-item padd-15">
+                        <div class="portfolio-item-inner shadow-dark">
+                            <div class="portfolio-img">
+                                <h3>Software Engineer | Cotiviti Nepal Pvt. Ltd.</h3>
+                                <p>Jul 2022 – Feb 2024</p>
+                                <ul class="experience-list">
+                                    <li>Designed, developed, and deployed microservices using Spring Boot and Java, with SonarQube for static code analysis.</li>
+                                    <li>Built interactive client-side interfaces with Angular, managing data persistence with Oracle through efficient SQL queries.</li>
+                                    <li>Containerized and deployed microservices using Docker, managing secure image storage with Artifactory, and utilized OpenShift for scalable hosting.</li>
+                                    <li>Enhanced user experience for a Medical Intelligence product by developing a Markdown-based web application.</li>
+                                    <li>Collaborated within a Scrum team, adhering to SAFE Agile principles for project delivery, and conducted thorough testing using JUnit.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ===portfolio item ends===-->
+                </div>
+            </div>
+        </section>
+        
+         <!-- === Portfolio section ends here ===-->
     <!-- ==== About section Start ====-->
     <section class="about section" id="about">
         <div class="container">
@@ -80,10 +123,7 @@
                         <div class="personal-info padd-15">
                             <div class="row">
                                 <div class="info-item padd-15">
-                                    <p>Birthdate: <span>19 August 1999</span></p>
-                                </div>
-                                <div class="info-item padd-15">
-                                    <p>Languages: <span>Nepali, English, Hindi</span></p>
+                                    <p>Languages: <span>Nepali, English</span></p>
                                 </div>
                                 <div class="info-item padd-15">
                                     <p>Email: <span>suyogdhakal1@gmail.com</span></p>
@@ -105,6 +145,13 @@
                                 </div>
                                 <div class="info-item padd-15">
                                     <p>Seminars: <span>Art of Living: Youth Empowerment and Skills, Dec 2017</span></p>
+                                </div>
+                                <div class="info-item padd-15">
+                                    <p>Trainings/Certifications:
+                                        <span>· SAFe® 6 Practitioner certification from Scaled Agile, Inc.</span>
+                                        <span>· MERN Stack Development Course Completion [Mindrisers Institute of Technology]</span>
+                                        <span>· Certification of Completion: React Summit 2022</span>
+                                    </p>
                                 </div>
                                 <div class="info-item padd-15">
                                     <p>Awards:<span>Academic Scholarship Award 2074 Batch for ranking 791th rank in IOE entrance exam.</span><span>Kathmandu Engineering College</span></p>
@@ -131,7 +178,6 @@
                                                 </h3>
                                                 <h4 class="timeline-title">Bachelors in Computer Engineering(IOE)</h4>
                                                 <h4 class=" timeline-text">Kathmandu Engineering College(KEC), Kathmandu</h4>
-                                                <p class="timeline-text">Percentage:70%</p>
                                                 <p class=" timeline-text">Electives: Data Mining, Big Data, Multimedia System</p>
                                         </div>
                                         <div class="timeline-item">
@@ -159,7 +205,7 @@
                         </div>
                         </div>
                         <div class="experience padd-15">
-                            <h3 class="title">Skills</h3>
+                            <h3 class="title">Technical Skills</h3>
                             <div class="row">
                                 <div class="timeline-box padd-15">
                                     <div class="timeline shadow-dark">
@@ -167,36 +213,54 @@
                                         <div class="timeline-item">
                                             <div class="circle-dot"></div>
                                                 <h4 class="timeline-title">Languages</h4>
-                                                <p class="timeline-text">C,  C++</p>
-                                                <p class="timeline-text">Python,  PHP</p>
+                                                <p class="timeline-text">C#, Typescript, JavaScript, Python, Java, C, C++</p>
                                         </div>
                                         <div class="timeline-item">
                                             <div class="circle-dot"> </div>
                                                 <h4 class="timeline-title">Libraries and Frameworks</h4>
-                                                <p class="timeline-text">React JS</p>
-                                                <p class="timeline-text">Express JS</p>
+                                                <p class="timeline-text">[.NET Technologies]:
+                                                    <span>Net Core, ASP.NET MVC, ASP.NET Web API, Entity Framework, Dapper</span>
+                                                </p>
+                                                <p class="timeline-text">[.Front-end Technologies]:
+                                                    <span> Angular, React, D3.js</span>
+                                                </p>
+                                                <p class="timeline-text">[Java Technologies]:
+                                                    <span> Apache Tomcat, Servlets, JDBC, JPA, Hibernate, RMI</span>
+                                                </p>
+                                                <p class="timeline-text">[Spring Framework]:
+                                                    <span> Spring (MCV, Boot, Data, Security, Dependency Injection)</span>
+                                                </p>
+                                                <p class="timeline-text">[Machine Learning/Data Science]:
+                                                    <span> andas, NumPy, Scikit, TensorFlow</span>
+                                                </p>
+
                                     </div>
                                     <div class="timeline-item">
                                         <div class="circle-dot"> </div>
                                             </h3> 
                                             <h4 class="timeline-title">Databases </h4>
-                                            <p class="timeline-text">MySQL</p>
-                                            <p class="timeline-text">MongoDB</p>
+                                            <p class="timeline-text">SSQL, MySQL, Oracle, MongoDB</p>
                                     </div>
-                                    <div class="timeline-item">
-                                        <div class="circle-dot"> </div>
-                                            <h4 class="timeline-title">Web Technologies</h4>
-                                            <p class="timeline-text">HTML</p>
-                                            <p class="timeline-text">CSS</p>
-                                            <p class="timeline-text">Javascript</p>
-                                </div>
+                                   <div class="timeline-item">
+                                    <div class="circle-dot"> </div>
+                                        <h4 class="timeline-title">Cloud Technologies</h4>
+                                        <p class="timeline-text">AWS, Docker</p>
+                               </div>
+                               <div class="timeline-item">
+                                <div class="circle-dot"> </div>
+                                    <h4 class="timeline-title">Other Technologies</h4>
+                                    <p class="timeline-text">Confluence, Jira</p>
+                           </div>
+                           <div class="timeline-item">
+                            <div class="circle-dot"> </div>
+                                <h4 class="timeline-title">Testing Framework</h4>
+                                <p class="timeline-text">Selenium, Jasmine, Karma, xUnit, NUnit</p>
+                            </div>
                                 <div class="timeline-item">
                                     <div class="circle-dot"> </div>
-                                        <h4 class="timeline-title">Development Tools</h4>
-                                        <p class="timeline-text">Microsoft Visual Studio</p>
-                                        <p class="timeline-text">CodeBlocks</p>
-                                        <p class="timeline-text">GitHub</p>
-                            </div>
+                                        <h4 class="timeline-title">Tools</h4>
+                                        <p class="timeline-text">GIT, IntelliJ, VS Code, Visual Studio, Log4j, Git, GitHub, Bitbucket, Postman, Maven, Bamboo, Octopus, DBeaver</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -207,17 +271,17 @@
         </div>
     </section>
     <!-- ==== About section Ends ====-->
-    <!-- ==== Portfolio section Starts ====-->
-    <section class="portfolio section" id="portfolio">
+    <!-- ==== Academic projects Starts ====-->
+    <section class="portfolio section" id="academicprojects">
         <div class="container">
             <div class="row">
                 <div class="section-title" padd-15>
-                    <h2>Portfolio</h2>
+                    <h2>Academic Projects</h2>
                 </div>
             </div>
             <div class="row">
                 <div class="portfolio-heading padd-15">
-                    <h2>These are some of my Projects:</h2>
+                    <h2>These are some of my  Academic Projects:</h2>
                 </div>
             </div>
             <div class="row">
@@ -253,8 +317,8 @@
                      <h2>Contact Me</h2>
                  </div>
              </div>
-             <h3 class="contact-title">Hace You Any Questions ?</h3>
-             <h4 class="contact-sub-title">I'M AT YOUR SERVICES</h4>
+             <h3 class="contact-title">For Any Queries</h3>
+             <h4 class="contact-sub-title">PLEASE REACH OUT TO ME AT:</h4>
              <div class="row">
                  <!-- ===Contact Info Item Starts==-->
                  <div class="contact-info-item">
@@ -266,43 +330,6 @@
              </div>
              <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
              <h4 class="contact-sub-title padd-15">I'M VERY RESPONSIVE TO MESSAGES</h4>
-
-            <!-- ==Contact Form==-->
-            <div class="row">
-                <div class="contact-form padd-15">
-                  <div class="row">
-                      <div class="form-item col-6 padd-15">
-                          <div class="form-group">
-                              <input type="text" class="form-control" placeholder="Name">
-                          </div>
-                      </div>
-                      <div class="form-item col-6 padd-15">
-                        <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Email">
-                        </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="form-item col-12 padd-15">
-                        <div class="form-group">
-                            <textarea name="" class="form-control" id="" placeholder="Subject"></textarea>
-                        </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="form-item col-12 padd-15">
-                        <div class="form-group">
-                            <textarea name="" class="form-control" id="" placeholder="Message"></textarea>
-                        </div>
-                    </div>
-                  </div>
-                <div class="row">
-                    <div class="form-item col-12 padd-15">
-                        <a href="#home">
-                        <button type="submit" class="btn">Send Message</button>
-                    </a>
-                    </div>
-                  </div>
             </div>
          </div>
      </section>
