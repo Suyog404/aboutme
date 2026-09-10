@@ -1,346 +1,1279 @@
-<!DOCTYPE html>
-<html lang=" en">
+<!doctype html>
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="vieport" content="width=device-width, initial-scale=1.0">
-    <!-- ===== CSS FILES ==== -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/skins/color-1.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <!-- style ==switcher==-->
-    <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
-    <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled >
-    <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled >
-    <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled >
-    <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled >
+  <meta charset="utf-8">
 
-    
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+
+  <meta
+    name="description"
+    content="Suyog Dhakal — Software Engineer, Computer Engineer and Data Enthusiast."
+  >
+
+  <meta
+    name="theme-color"
+    content="#f5f3ee"
+  >
+
+  <title>Suyog Dhakal — Software Engineer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link
+    rel="stylesheet"
+    href="css/style.css"
+  >
+
+  <script
+    defer
+    src="js/script.js"
+  ></script>
 </head>
+
+
 <body>
-    <!-- ===Main Container Start ====-->
-<div class="main-container">
-    
-    <!-- ==== Aside start ====-->
-    <div class="aside"> 
-    <div class="nav-toggler">
+
+  <div
+    class="progress"
+    aria-hidden="true"
+  ></div>
+
+
+  <!-- =====================================================
+       HEADER
+  ====================================================== -->
+
+  <header class="header">
+
+    <div class="container nav">
+
+      <a
+        class="brand"
+        href="#home"
+        aria-label="Suyog Dhakal home"
+      >
+        Suyog Dhakal
+      </a>
+
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-label="Open navigation"
+        aria-expanded="false"
+        aria-controls="main-navigation"
+      >
         <span></span>
-    </div>
-    <ul class="nav"> 
-        <li> <a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
-        <li> <a href="#portfolio" class="active"><i class="fa fa-briefcase">  Resume</i></a></li>
-        <li> <a href="#about" class="active"><i class="fa fa-user"></i>About</a></li>
-        <li> <a href="#academicprojects" class="active"><i class="fa-solid fa-folder-open">  Academic Projects</i></a></li>
-        <li> <a href="#contact" class="active"><i class="fa fa-comments">  Contact</i></a></li>
-    </ul>
+        <span></span>
+      </button>
+
+
+      <nav
+        class="nav-menu"
+        id="main-navigation"
+      >
+
+        <a
+          href="#home"
+          class="nav-link active"
+        >
+          Home
+        </a>
+
+        <a
+          href="#experience"
+          class="nav-link"
+        >
+          Experience
+        </a>
+
+         <a
+          href="#skills"
+          class="nav-link"
+        >
+          Technical Expertise
+        </a>
+
+        <a
+          href="#education"
+          class="nav-link"
+        >
+          Academic Background
+        </a>
+
+        <a
+          href="#certifications"
+          class="nav-link"
+        >
+          Certificates
+        </a>
+
+        <a
+          href="#projects"
+          class="nav-link"
+        >
+          Projects
+        </a>
+
+        <a
+          href="#contact"
+          class="nav-button"
+        >
+          Connect With Me ↗
+        </a>
+
+      </nav>
+
     </div>
 
-    <!-- Aside End ====-->
-    
-    <!-- ==== Main Content ====-->
-    <div class="main-content">
-    <!-- === Home Section Start === --> 
-    <selection class="home section" id="home">
-         <div class="container">
-            <div class="row">
-            <div class="home-info padd-15">
-            <h3 class="hello">A<span class="name"> Tech Enthusiast</span></h3>
-            <h3 class="my-profession">I'm a <span class="typing"></span></h3>
-            <p> Software engineer having more than 2 years of experience in designing, developing and maintaining software solutions, particularly for US Healthcare Analytics applications with strong background in software design, data analytics and cloud technology.</p>
-            <a href="#about" class="btn">Checkmy CV</a> 
-            <a href="#contact" class="btn hire-me">Hire Me</a>
-           </div>
-           <div class="home-img padd-15">
-           <img src="images/hero.jpg"  alt="">
-            </div>
-            </div>
-        </div>
-    </selection> 
-    <!-- ==== Home section End ====-->
-          <!-- === Portfolio section starts here ===-->
-          <section class="portfolio section" id="portfolio">
-            <div class="container">
-                <div class="row">
-                    <div class="section-title padd-15">
-                        <h2>Resume</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <!-- ===portfolio item start===-->
-                    <div class="portfolio-item padd-15">
-                        <div class="portfolio-item-inner shadow-dark">
-                            <div class="portfolio-img">
-                                <h3>Software Engineer | Infinite Softwares Services Nepal Pvt. Ltd.</h3>
-                                <p>Feb 2024 – Present</p>
-                                <ul class="experience-list">
-                                    <li>Developed and maintained healthcare analytics applications, including Medical Intelligence and Engagement Hub Project, utilizing .NET Web API, Angular, Oracle, and AWS, with D3.js for data visualization.</li>
-                                    <li>Executed SQL queries on data marts to retrieve and manipulate data, applying various logic and transformations to meet client needs.</li>
-                                    <li>Contributed to the Engagement Hub Project for Quality Intelligence, developing MVP features including a geolocation component for the US map with interactive Geo-reporting.</li>
-                                    <li>Designed and built user-friendly frontend components with Angular and conducted unit testing using Jasmine, Karma, and Wallaby.js.</li>
-                                    <li>Developed and managed unit tests for backend services using NUnit.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ===portfolio item ends===-->
-                    <!-- ===portfolio item start===-->
-                    <div class="portfolio-item padd-15">
-                        <div class="portfolio-item-inner shadow-dark">
-                            <div class="portfolio-img">
-                                <h3>Software Engineer | Cotiviti Nepal Pvt. Ltd.</h3>
-                                <p>Jul 2022 – Feb 2024</p>
-                                <ul class="experience-list">
-                                    <li>Designed, developed, and deployed microservices using Spring Boot and Java, with SonarQube for static code analysis.</li>
-                                    <li>Built interactive client-side interfaces with Angular, managing data persistence with Oracle through efficient SQL queries.</li>
-                                    <li>Containerized and deployed microservices using Docker, managing secure image storage with Artifactory, and utilized OpenShift for scalable hosting.</li>
-                                    <li>Enhanced user experience for a Medical Intelligence product by developing a Markdown-based web application.</li>
-                                    <li>Collaborated within a Scrum team, adhering to SAFE Agile principles for project delivery, and conducted thorough testing using JUnit.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ===portfolio item ends===-->
-                </div>
-            </div>
-        </section>
-        
-         <!-- === Portfolio section ends here ===-->
-    <!-- ==== About section Start ====-->
-    <section class="about section" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="section-title padd-15">
-                    <h2>About Me</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="about-content padd-15">
-                    <div class="row">
-                        <div class="about-text padd-15">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="personal-info padd-15">
-                            <div class="row">
-                                <div class="info-item padd-15">
-                                    <p>Languages: <span>Nepali, English</span></p>
-                                </div>
-                                <div class="info-item padd-15">
-                                    <p>Email: <span>suyogdhakal1@gmail.com</span></p>
-                                </div>
-                                <div class="info-item padd-15">
-                                    <p>Address: <span>Kathmandu, Nepal, -04</span></p>
-                                </div>
-                                <div class="info-item padd-15">
-                                    <p>Degree:<span>Bachelors in Computer Engineering (IOE)</span></p>
-                                </div>
-                                <div class="info-item padd-15">
-                                    <p>Leadership: <span>A House Representative and Class Captain</span></p>
-                                </div>
-                                <div class="info-item padd-15">
-                                    <p>Linked <a href="https://www.linkedin.com/in/suyog-dhakal-0750a4220/" ><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAAaVBMVEUAd7X///8AcLEEebb7/f4Debb9/v79/v8DeLY8l8Y7lsYAbbCcyuKlz+WQxN+Lwd0KfbiDvdvl8fcAc7O+3OwgiL6x1ehFnMlytNZqsNQZhLzF4O7w9/tSo81gqtGp0ebc7PUsjsJ8udngaOvIAAADg0lEQVRoge2abZeqIBCAGV7EjXItKjc1y/7/j7xD7m5AWHdD+uScs3s8kDzOIMwMDoGrSJ4lEC6H0ckVkUEiyeQPBC+ar+pjcqm+GsQMEAntUSuaQJQ+toZC8F+7U4KJBMKE6ltUwkAqJUgiEapCAJGwpSwVgxBGtyAJh4NKCVEH4AStRZNZC+1F0V5orgXN00FyukBzZekh2XsgbzFXCMIGSQlhTCsjegrMCEQQVXfF8rOrFYm3YxjCdFnw6zbdFkJHr6AgROjdGYAbATjXOlaXEISRcgN88GEZh3NJIuclBBF0BfzXr3EoYve1ACTXPViuOAO+izRYAMLUxVLEqBK7RQcggp48yHJ6SG5cjAWRsI/0A0FN9g6Ew2p6TZhae+a6pDDXwn67UKt++rcL3+Gts072sW4gDOn5L4VjRBa7rwT3LkarDMNvmeEf8EV0tDSyC9O++dZku4uPyEb8CdO6KrbNtvjQOt5rjXnGnGGkrKmibALfP+7jBQ6fs0lCvnHIn4Tlj2KBsTkJX4cGYgLH1yiD8n+A/LcgACevrHe7ujRXQYXCEFHaIsLNZjgMnMrjstm0nLebZnXodSi6Cbvfz3Zzk3Y97I/ozOxmE2Dkql5vnCS0OQbe+WAgoZbOjcUPpLBbeU0I7dprZi4xlZYyM8ENNP3d6h2DcPkj/Ab5vDVjkllrgg/DpfNA+HN59D3DKMTahW3ILbxoa3Ru/D75x59Uni6vQ3hZOL7N8j9+ePMqRMLmACNnGHce6FUItrcgA4ThCdwU9HUIjDLuVImAjB/4+EFnjCZXba6xv/SU8oLOOEhmvQgu5GRPShQER25Pl667nFrXeBmc7ZUSA8FxLyU1mSWtTw7Fm5S4ia/Ud5KsnVtM34dlrwiIxNkV31ZhhG1sXTh01sy/DkG7W55SqC9npcLXJBBvHEzPLFU4rCeBgBeHs7MDKaaA4A5ZWggvdXKzs5chGTSOn2XKTZlX02jiJnnGOU8O8ZO8u146CWTpQdYzZIbMkBkyQ2bIDJkhA+QmDsRqDkCs3tXTqH4FtiyDxx6BkMiW/ZO4K6eH/eom+27oy2nnNB+8DPfo9j5JgswBk/PVnj1sfnzTKMScPVpf7fMnzU97JzqDfCxvhMxfsf8Ake8pX3hLIUbqkhJtSkpSF8ccTXGMKSXqk5f5vKVg6Xpkkbz06j1FZJC6HO4fbRVnSvd35FUAAAAASUVORK5CYII=" alt="" height="44px"></a></p>
-                                </div>
-                                <div class="info-item padd-15">
-                                    <p>Github <a href="https://github.com/Suyog404"alt=""><img src="https://www.influxdata.com/wp-content/uploads/GitHub-logo.jpg" height="44px"></a></p>
-                                </div>
-                                <div class="info-item padd-15">
-                                    <p>Seminars: <span>Art of Living: Youth Empowerment and Skills, Dec 2017</span></p>
-                                </div>
-                                <div class="info-item padd-15">
-                                    <p>Trainings/Certifications:
-                                        <span>· SAFe® 6 Practitioner certification from Scaled Agile, Inc.</span>
-                                        <span>· MERN Stack Development Course Completion [Mindrisers Institute of Technology]</span>
-                                        <span>· Certification of Completion: React Summit 2022</span>
-                                    </p>
-                                </div>
-                                <div class="info-item padd-15">
-                                    <p>Awards:<span>Academic Scholarship Award 2074 Batch for ranking 791th rank in IOE entrance exam.</span><span>Kathmandu Engineering College</span></p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="buttons padd-15">
-                                    <a href="#contact" class="btn hire-me">Hire-me</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="education padd-15">
-                            <h3 class="title">Education</h3>
-                            <div class="row">
-                                <div class="timeline-box padd-15">
-                                    <div class="timeline shadow-dark">
-                                        <!-- ==timeline item == -->
-                                        <div class="timeline-item">
-                                            <div class="circle-dot"></div>
-                                                <h3 class="timeline-date">
-                                                    <i class="fa fa-calendar"></i> 2017-2022
-                                                </h3>
-                                                <h4 class="timeline-title">Bachelors in Computer Engineering(IOE)</h4>
-                                                <h4 class=" timeline-text">Kathmandu Engineering College(KEC), Kathmandu</h4>
-                                                <p class=" timeline-text">Electives: Data Mining, Big Data, Multimedia System</p>
-                                        </div>
-                                        <div class="timeline-item">
-                                            <div class="circle-dot"> </div>
-                                                <h3 class="timeline-date">
-                                                    <i class="fa fa-calendar"></i> 2015-2017
-                                                </h3>
-                                                <h4 class="timeline-title">National Examination Board(NEB)</h4>
-                                                <h4 class=" timeline-text">Kathmandu Model College(KMC), Kathmandu</h4>
-                                                <p class="timeline-text">Percentage:83.5%</p>
-                                                <p class=" timeline-text">Major: Physics, Mathematics </p>
-                                    </div>
-                                    <div class="timeline-item">
-                                        <div class="circle-dot"> </div>
-                                            <h3 class="timeline-date">
-                                                <i class="fa fa-calendar"></i> 2010-2015
-                                            </h3>
-                                            <h4 class="timeline-title">School Leaving Certificate</h4>
-                                            <h4 class=" timeline-text">Graded English Medium School(GEMS), Lalitpur</h4>
-                                            <p class="timeline-text">Percentage:81.5%</p>
-                                            <p class=" timeline-text">Major: Computer Science, Optional Mathematics </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="experience padd-15">
-                            <h3 class="title">Technical Skills</h3>
-                            <div class="row">
-                                <div class="timeline-box padd-15">
-                                    <div class="timeline shadow-dark">
-                                        <!-- ==timeline item == -->
-                                        <div class="timeline-item">
-                                            <div class="circle-dot"></div>
-                                                <h4 class="timeline-title">Languages</h4>
-                                                <p class="timeline-text">C#, Typescript, JavaScript, Python, Java, C, C++</p>
-                                        </div>
-                                        <div class="timeline-item">
-                                            <div class="circle-dot"> </div>
-                                                <h4 class="timeline-title">Libraries and Frameworks</h4>
-                                                <p class="timeline-text">[.NET Technologies]:
-                                                    <span>Net Core, ASP.NET MVC, ASP.NET Web API, Entity Framework, Dapper</span>
-                                                </p>
-                                                <p class="timeline-text">[.Front-end Technologies]:
-                                                    <span> Angular, React, D3.js</span>
-                                                </p>
-                                                <p class="timeline-text">[Java Technologies]:
-                                                    <span> Apache Tomcat, Servlets, JDBC, JPA, Hibernate, RMI</span>
-                                                </p>
-                                                <p class="timeline-text">[Spring Framework]:
-                                                    <span> Spring (MCV, Boot, Data, Security, Dependency Injection)</span>
-                                                </p>
-                                                <p class="timeline-text">[Machine Learning/Data Science]:
-                                                    <span> andas, NumPy, Scikit, TensorFlow</span>
-                                                </p>
+  </header>
 
-                                    </div>
-                                    <div class="timeline-item">
-                                        <div class="circle-dot"> </div>
-                                            </h3> 
-                                            <h4 class="timeline-title">Databases </h4>
-                                            <p class="timeline-text">SSQL, MySQL, Oracle, MongoDB</p>
-                                    </div>
-                                   <div class="timeline-item">
-                                    <div class="circle-dot"> </div>
-                                        <h4 class="timeline-title">Cloud Technologies</h4>
-                                        <p class="timeline-text">AWS, Docker</p>
-                               </div>
-                               <div class="timeline-item">
-                                <div class="circle-dot"> </div>
-                                    <h4 class="timeline-title">Other Technologies</h4>
-                                    <p class="timeline-text">Confluence, Jira</p>
-                           </div>
-                           <div class="timeline-item">
-                            <div class="circle-dot"> </div>
-                                <h4 class="timeline-title">Testing Framework</h4>
-                                <p class="timeline-text">Selenium, Jasmine, Karma, xUnit, NUnit</p>
-                            </div>
-                                <div class="timeline-item">
-                                    <div class="circle-dot"> </div>
-                                        <h4 class="timeline-title">Tools</h4>
-                                        <p class="timeline-text">GIT, IntelliJ, VS Code, Visual Studio, Log4j, Git, GitHub, Bitbucket, Postman, Maven, Bamboo, Octopus, DBeaver</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </div>
+
+
+  <main>
+
+
+    <!-- =====================================================
+         HERO
+    ====================================================== -->
+
+    <section
+      class="hero section"
+      id="home"
+    >
+
+      <div class="container hero-grid">
+
+
+        <!-- HERO COPY -->
+
+        <div class="hero-copy reveal">
+
+          <p class="kicker">
+
+            <span class="dot"></span>
+
+            Software Engineer · Kathmandu, Nepal
+
+          </p>
+
+
+          <h1>
+            Engineering ideas into<br>
+            <i>reliable software.</i>
+          </h1>
+
+
+          <p class="intro">
+            Software engineer with 4+ years of experience building and
+            maintaining healthcare analytics applications, with a focus on
+            software engineering, data analytics and cloud technologies.
+          </p>
+
+
+          <div class="actions">
+
+            <a
+              class="button primary"
+              href="#experience"
+            >
+              Explore my work ↓
+            </a>
+
+
+            <a
+              class="underlink"
+              href="mailto:suyogdhakal1@gmail.com"
+            >
+              Get in touch ↗
+            </a>
+
+          </div>
+
+
+          <!-- HERO META -->
+
+          <div class="hero-meta">
+
+
+            <div class="experience-mark">
+
+              <span class="experience-number">
+                04+
+              </span>
+
+              <span class="experience-label">
+                Years<br>
+                experience
+              </span>
+
             </div>
+
+
+            <div class="stack-mark">
+
+              <span class="stack-label">
+                Working with
+              </span>
+
+
+              <div class="stack-list">
+
+                <div class="stack-line">
+
+                  <span>.NET</span>
+                  <span>Java</span>
+                  <span>Angular</span>
+                  <span>React JS</span>
+                  <span>Spring</span>
+
+                </div>
+
+
+                <div class="stack-line">
+
+                  <span>Spring Boot</span>
+                  <span>JavaScript</span>
+                  <span>TypeScript</span>
+                  <span>PL/SQL</span>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
         </div>
-    </section>
-    <!-- ==== About section Ends ====-->
-    <!-- ==== Academic projects Starts ====-->
-    <section class="portfolio section" id="academicprojects">
-        <div class="container">
-            <div class="row">
-                <div class="section-title" padd-15>
-                    <h2>Academic Projects</h2>
-                </div>
+
+
+
+        <!-- HERO VISUAL -->
+
+        <div class="hero-visual reveal">
+
+
+          <div class="hero-card-wrap">
+
+            <div class="hero-card">
+
+              <img
+                class="hero-photo"
+                src="images/hero.jpg"
+                alt="Suyog Dhakal"
+              >
+
             </div>
-            <div class="row">
-                <div class="portfolio-heading padd-15">
-                    <h2>These are some of my  Academic Projects:</h2>
-                </div>
+
+          </div>
+
+
+
+          <!-- SPEECH BUBBLE -->
+
+          <div class="welcome-note">
+
+            <div class="welcome-note-top">
+
+              <span class="welcome-status">
+
+                <span class="status-dot"></span>
+
+                A QUICK HELLO
+
+              </span>
+
             </div>
-            <div class="row">
-                <!-- ===portfolio item start===-->
-                <div class="portfolio-item padd-15">
-                    <div class="portfolio-item-inner shadow-dark">
-                        <div class="portfolio-img">
-                            <img src="images/portfolio/portfolio-1.png" height="235px"  alt="">
-                            <span class="minor"></span>
-                        </div>
-                    </div>
-                </div>
-                  <!-- ===portfolio item ends===-->
-                   <!-- ===portfolio item start===-->
-                <div class="portfolio-item padd-15">
-                    <div class="portfolio-item-inner shadow-dark">
-                        <div class="portfolio-img">
-                            <img src="images/portfolio/portfolio-2.jpg"  height="235px"  alt="">
-                            <span class="major"></span>
-                        </div>
-                    </div>
-                </div>
-                  <!-- ===portfolio item ends===-->
+
+
+            <div class="welcome-note-line"></div>
+
+
+            <div class="welcome-note-content">
+
+              <span class="welcome-small">
+                Hi,
+              </span>
+
+
+              <p
+                class="welcome-text"
+                data-message="I’m Suyog. Welcome to my corner of the web."
+                aria-live="polite"
+              ></p>
+
             </div>
+
+          </div>
+
         </div>
+
+      </div>
+
     </section>
-    <!-- ==== Portfolio section Ends ====-->
-     <!-- ==== Contact section Starts ====-->
-     <section class="contact section" id="contact">
-         <div class="container">
-             <div class="row">
-                 <div class="section-title padd-15">
-                     <h2>Contact Me</h2>
-                 </div>
-             </div>
-             <h3 class="contact-title">For Any Queries</h3>
-             <h4 class="contact-sub-title">PLEASE REACH OUT TO ME AT:</h4>
-             <div class="row">
-                 <!-- ===Contact Info Item Starts==-->
-                 <div class="contact-info-item">
-                     <div class="icon"><i class="fa fa-envelope"></i></div>
-                     <h4>Email </h4>
-                     <p>suyogdhakal1@gmail.com</p>
-                 </div>
-                  <!-- ===Contact Info Item Ends==-->
-             </div>
-             <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
-             <h4 class="contact-sub-title padd-15">I'M VERY RESPONSIVE TO MESSAGES</h4>
+
+
+
+    <!-- =====================================================
+         TICKER
+    ====================================================== -->
+
+    <section
+      class="ticker"
+      aria-label="Skills"
+    >
+
+      <div class="ticker-track">
+
+
+        <div class="ticker-group">
+
+          <span>Software Engineering</span>
+          <b>✦</b>
+
+          <span>Healthcare Analytics</span>
+          <b>✦</b>
+
+          <span>Full Stack Development</span>
+          <b>✦</b>
+
+          <span>Cloud &amp; Data</span>
+          <b>✦</b>
+
+        </div>
+
+
+        <div
+          class="ticker-group"
+          aria-hidden="true"
+        >
+
+          <span>Software Engineering</span>
+          <b>✦</b>
+
+          <span>Healthcare Analytics</span>
+          <b>✦</b>
+
+          <span>Full Stack Development</span>
+          <b>✦</b>
+
+          <span>Cloud &amp; Data</span>
+          <b>✦</b>
+
+          <span>US Healthcare</span>
+          <b>✦</b>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         EXPERIENCE
+    ====================================================== -->
+
+    <section
+      class="section"
+      id="experience"
+    >
+
+      <div class="container">
+
+
+        <div class="section-intro reveal">
+
+        <h2 class="moving-title">
+
+            <span>Experience</span>
+
+          </h2>
+
+
+        </div>
+
+
+        <div class="experience-list">
+
+
+          <article class="experience-item reveal">
+
+            <div class="experience-index">
+              01
             </div>
-         </div>
-     </section>
-      <!-- ==== Contact section Ends ====-->
+
+
+            <div class="experience-main">
+
+              <div class="experience-top">
+
+                <div>
+
+                  <h3>
+                    Software Engineer
+                  </h3>
+
+                  <p class="company">
+                    Infinite Softwares Services Nepal Pvt. Ltd.
+                  </p>
+
+                </div>
+
+
+                <time>
+                  Feb 2024 — Present
+                </time>
+
+              </div>
+
+
+              <ul>
+
+                <li>
+                  Developed and maintained healthcare analytics applications,
+                  including Medical Intelligence and Engagement Hub Project,
+                  utilizing .NET Web API, Angular, Oracle, and AWS, with D3.js
+                  for data visualization.
+                </li>
+
+                <li>
+                  Execute SQL against data marts, applying business logic and
+                  transformations to meet client requirements.
+                </li>
+
+                <li>
+                  Contributed to the Engagement Hub Project for Quality
+                  Intelligence, developing MVP features including a
+                  geolocation component for the US map with interactive
+                  Geo-reporting.
+                </li>
+
+                <li>
+                  Designed and built user-friendly frontend components with
+                  Angular and conducted unit testing using Jasmine, Karma,
+                  and Wallaby.js.
+                </li>
+
+                <li>
+                  Developed and managed unit tests for backend services using
+                  NUnit.
+                </li>
+
+              </ul>
+
+            </div>
+
+          </article>
+
+
+
+          <article class="experience-item reveal">
+
+            <div class="experience-index">
+              02
+            </div>
+
+
+            <div class="experience-main">
+
+              <div class="experience-top">
+
+                <div>
+
+                  <h3>
+                    Software Engineer
+                  </h3>
+
+                  <p class="company">
+                    Cotiviti Nepal Pvt. Ltd.
+                  </p>
+
+                </div>
+
+
+                <time>
+                  Jul 2022 — Feb 2024
+                </time>
+
+              </div>
+
+
+              <ul>
+
+                <li>
+                  Designed, developed and deployed microservices using Java
+                  and Spring Boot, supported by SonarQube for static analysis.
+                </li>
+
+                <li>
+                  Built Angular interfaces and worked with Oracle using
+                  efficient SQL queries for data persistence.
+                </li>
+
+                <li>
+                  Containerized services with Docker, managed images with
+                  Artifactory and used OpenShift for scalable hosting.
+                </li>
+
+                <li>
+                  Enhanced user experience for a Medical Intelligence product
+                  by developing a Markdown-based web application.
+                </li>
+
+                <li>
+                  Worked in a Scrum team following SAFe Agile practices and
+                  conducted testing with JUnit.
+                </li>
+
+              </ul>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         TECHNICAL EXPERTISE
+    ====================================================== -->
+
+    <section
+      class="section skills-section"
+      id="skills"
+    >
+
+      <div class="container">
+
+
+        <div class="section-intro reveal">
+
+          <h2 class="moving-title">
+
+            <span>Technical</span><br>
+
+            <i>Expertise</i>
+
+          </h2>
+
+        </div>
+
+
+        <div class="expertise-list reveal">
+
+
+          <div class="expertise-row">
+
+            <div class="expertise-label">
+              <span>Languages</span>
+            </div>
+
+            <div class="expertise-content">
+              C# · Java · TypeScript · JavaScript · Python · C · C++
+            </div>
+
+          </div>
+
+
+
+          <div class="expertise-row">
+
+            <div class="expertise-label">
+              <span>Frameworks &amp; Libraries</span>
+            </div>
+
+            <div class="expertise-content">
+              .NET · ASP.NET Web API · Spring Boot · Angular · React · D3.js
+            </div>
+
+          </div>
+
+
+
+          <div class="expertise-row">
+
+            <div class="expertise-label">
+              <span>Data &amp; AI</span>
+            </div>
+
+            <div class="expertise-content">
+              Oracle · MySQL · MongoDB · SQL · Pandas · NumPy · Scikit-learn · TensorFlow
+            </div>
+
+          </div>
+
+
+
+          <div class="expertise-row">
+
+            <div class="expertise-label">
+              <span>Cloud &amp; Infrastructure</span>
+            </div>
+
+            <div class="expertise-content">
+              AWS · Docker · OpenShift · Artifactory · Git · Bitbucket · Postman
+            </div>
+
+          </div>
+
+
+
+          <div class="expertise-row">
+
+            <div class="expertise-label">
+              <span>Testing &amp; Quality</span>
+            </div>
+
+            <div class="expertise-content">
+              NUnit · JUnit · Jasmine · Karma · Selenium · xUnit
+            </div>
+
+          </div>
+
+
+
+          <div class="expertise-row">
+
+            <div class="expertise-label">
+              <span>Engineering Practices</span>
+            </div>
+
+            <div class="expertise-content">
+              REST APIs · Microservices · CI/CD · Scrum · SAFe · Agile
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         EDUCATION
+    ====================================================== -->
+
+    <section
+      class="education section"
+      id="education"
+    >
+
+      <div class="container">
+
+
+        <div class="education-header reveal">
+
+          <h2 class="moving-title">
+
+            <span>Academic</span>
+            <i>background.</i>
+
+          </h2>
+
+        </div>
+
+
+        <div class="education-records reveal">
+
+
+          <article class="education-record">
+
+            <div class="education-record-header">
+
+              <span class="education-type">
+                Undergraduate
+              </span>
+
+              <time>
+                2017 — 2022
+              </time>
+
+            </div>
+
+
+            <div class="education-content">
+
+              <h3>
+                Bachelors in Computer Engineering
+              </h3>
+
+              <p class="education-institution">
+                Institute of Engineering · Kathmandu Engineering College
+              </p>
+
+              <p class="education-extra">
+                Data Mining · Big Data · Multimedia System
+              </p>
+
+            </div>
+
+          </article>
+
+
+
+          <article class="education-record">
+
+            <div class="education-record-header">
+
+              <span class="education-type">
+                Higher Secondary
+              </span>
+
+              <time>
+                2015 — 2017
+              </time>
+
+            </div>
+
+
+            <div class="education-content">
+
+              <h3>
+                National Examination Board
+              </h3>
+
+              <p class="education-institution">
+                Kathmandu Model College
+              </p>
+
+              <p class="education-extra">
+                83.5% · Physics &amp; Mathematics
+              </p>
+
+            </div>
+
+          </article>
+
+
+
+          <article class="education-record">
+
+            <div class="education-record-header">
+
+              <span class="education-type">
+                Secondary Education
+              </span>
+
+              <time>
+                2010 — 2015
+              </time>
+
+            </div>
+
+
+            <div class="education-content">
+
+              <h3>
+                School Leaving Certificate
+              </h3>
+
+              <p class="education-institution">
+                Graded English Medium School (GEMS), Lalitpur
+              </p>
+
+              <p class="education-extra">
+                81.5% · Computer Science &amp; Optional Mathematics
+              </p>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+  <!-- =====================================================
+     CERTIFICATIONS
+====================================================== -->
+
+<section
+  class="section certifications-section"
+  id="certifications"
+>
+
+  <div class="container">
+
+    <div class="section-intro reveal">
+
+      <h2 class="moving-title">
+        <span>Certificates</span>
+      </h2>
+
     </div>
-     <!-- ==== Main Content End ====-->
-     </div>
-      <!-- ==== Main Container====-->
-     <!-- ===== JS files ==== -->
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
-     <script src="js/script.js"></script>
-   
+
+
+    <div class="certification-list reveal">
+
+
+      <article class="certification-item">
+
+        <div class="certification-number">
+          01
+        </div>
+
+        <div class="certification-content">
+
+          <h3>
+            SAFe® 6 Practitioner
+          </h3>
+
+          <p class="certification-provider">
+            Scaled Agile, Inc.
+          </p>
+
+        </div>
+
+        <div class="certification-year">
+          2024
+        </div>
+
+      </article>
+
+       <article class="certification-item">
+
+        <div class="certification-number">
+          02
+        </div>
+
+        <div class="certification-content">
+
+          <h3>
+             Academic Scholarship Award
+          </h3>
+
+          <p class="certification-provider">
+            Kathmandu Engineering College
+          </p>
+
+        </div>
+
+        <div class="certification-year">
+          2018
+        </div>
+
+      </article>
+
+
+      <article class="certification-item">
+
+        <div class="certification-number">
+          02
+        </div>
+
+        <div class="certification-content">
+
+          <h3>
+            MERN Stack Development
+          </h3>
+
+          <p class="certification-provider">
+            Professional Development
+          </p>
+
+        </div>
+
+        <div class="certification-year">
+          2022
+        </div>
+
+      </article>
+
+
+      <article class="certification-item">
+
+        <div class="certification-number">
+          03
+        </div>
+
+        <div class="certification-content">
+
+          <h3>
+            React Summit
+          </h3>
+
+          <p class="certification-provider">
+            React Summit · Professional Conference
+          </p>
+
+        </div>
+
+        <div class="certification-year">
+          2022
+        </div>
+
+      </article>
+
+        <article class="certification-item">
+
+        <div class="certification-number">
+          01
+        </div>
+
+        <div class="certification-content">
+
+          <h3>
+           SQL (Basic) Certificate
+          </h3>
+
+          <p class="certification-provider">
+            HackerRank
+          </p>
+
+        </div>
+
+        <div class="certification-year">
+          2026
+        </div>
+
+      </article>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+    <!-- =====================================================
+         ACADEMIC PROJECTS
+    ====================================================== -->
+
+    <section
+      class="section academic-section"
+      id="projects"
+    >
+
+      <div class="container">
+
+
+        <div class="academic-header reveal">
+          <h2 class="moving-title">
+
+            <span>Academic</span><br>
+
+            <i>projects.</i>
+
+          </h2>
+
+        </div>
+
+
+
+        <article class="academic-entry reveal">
+
+          <div class="academic-entry-top">
+
+            <span class="academic-number">
+              01
+            </span>
+
+            <span class="academic-category">
+              FULL-STACK / E-COMMERCE
+            </span>
+
+            <span class="academic-index">
+              01 — 02
+            </span>
+
+          </div>
+
+
+          <div class="academic-entry-content">
+
+
+            <div class="academic-entry-title">
+
+              <h3>
+                Full-stack<br>
+                commerce platform
+              </h3>
+
+            </div>
+
+
+            <div class="academic-entry-details">
+
+              <p class="academic-description">
+                A MERN-based commerce platform developed with React, Node.js,
+                Express and MongoDB. The application included PayPal Sandbox
+                integration for payment processing, product management,
+                sorting, recommendation functionality and data analysis.
+              </p>
+
+
+              <div class="academic-meta">
+
+
+                <div class="academic-meta-row">
+
+                  <span class="academic-meta-label">
+                    Technology
+                  </span>
+
+                  <p>
+                    React · Node.js · Express · MongoDB · PayPal
+                  </p>
+
+                </div>
+
+
+                <div class="academic-meta-row">
+
+                  <span class="academic-meta-label">
+                    Core features
+                  </span>
+
+                  <p>
+                    CRUD operations · Product sorting · Payment integration ·
+                    Recommendation system · Data analysis
+                  </p>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+
+        <article class="academic-entry reveal">
+
+          <div class="academic-entry-top">
+
+            <span class="academic-number">
+              02
+            </span>
+
+            <span class="academic-category">
+              MACHINE LEARNING / COMPUTER VISION
+            </span>
+
+            <span class="academic-index">
+              02 — 02
+            </span>
+
+          </div>
+
+
+          <div class="academic-entry-content">
+
+
+            <div class="academic-entry-title">
+
+              <h3>
+                COVID-19<br>
+                X-ray detection
+              </h3>
+
+            </div>
+
+
+            <div class="academic-entry-details">
+
+              <p class="academic-description">
+                A comparative machine-learning study for COVID-19 detection
+                using chest X-ray datasets. Multiple classification algorithms
+                were implemented and evaluated using standard performance
+                metrics.
+              </p>
+
+
+              <div class="academic-meta">
+
+
+                <div class="academic-meta-row">
+
+                  <span class="academic-meta-label">
+                    Technology
+                  </span>
+
+                  <p>
+                    Python · Scikit-learn · Scikit-image · OpenCV · Pandas ·
+                    Matplotlib · ReactJS
+                  </p>
+
+                </div>
+
+
+                <div class="academic-meta-row">
+
+                  <span class="academic-meta-label">
+                    Algorithms
+                  </span>
+
+                  <p>
+                    Support Vector Machines (SVM) · Random Forest ·
+                    Logistic Regression
+                  </p>
+
+                </div>
+
+
+                <div class="academic-meta-row">
+
+                  <span class="academic-meta-label">
+                    Evaluation
+                  </span>
+
+                  <p>
+                    Accuracy · Precision · Recall · F1-score
+                  </p>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         CURRENTLY
+    ====================================================== -->
+
+    <section class="accent-section section">
+
+      <div class="container reveal">
+
+        <p class="eyebrow">
+          Currently
+        </p>
+
+
+        <blockquote>
+          “Always learning. Always building. Always looking for a better way
+          to solve the problem.”
+        </blockquote>
+
+
+        <p class="small-note">
+          Certified SAFe® 6 Practitioner
+        </p>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         CONTACT
+    ====================================================== -->
+
+    <section
+      class="contact section"
+      id="contact"
+    >
+
+      <div class="container contact-inner reveal">
+
+        <h2>
+          Let's build something<br>
+          <i>together.</i>
+        </h2>
+
+
+        <a
+          class="email"
+          href="mailto:suyogdhakal1@gmail.com"
+        >
+          suyogdhakal1@gmail.com ↗
+        </a>
+
+
+        <div class="links">
+
+          <a
+            href="https://www.linkedin.com/in/suyog-dhakal-0750a4220/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn ↗
+          </a>
+
+
+          <a
+            href="https://github.com/Suyog404"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub ↗
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+
+  <!-- =====================================================
+       FOOTER
+  ====================================================== -->
+
+  <footer class="footer container">
+
+    <span>
+      © <span id="year"></span> Suyog Dhakal
+    </span>
+
+
+    <span>
+      Computer Engineer
+    </span>
+
+
+    <a href="#home">
+      Back to top ↑
+    </a>
+
+  </footer>
+
+
 </body>
+
 </html>
